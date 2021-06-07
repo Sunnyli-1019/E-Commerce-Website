@@ -1,0 +1,128 @@
+html,
+body {
+    /* set body height be 100% to the window size */
+    height: 100%;
+    margin: auto;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#id_wrapper {
+    /* set min height 100% */
+    min-height: 100%;
+    /* set position relative, for the reference of footer positon */
+    position: relative;
+}
+
+#id_header {
+    /* set header height*/
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 50%;
+    border: 10px solid green;
+    background-color: lightyellow;
+    padding: 30px 0;
+    border-style: double;
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+#id_content {
+    /* leave space for header & footer region */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#id_thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#id_photo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#id_footer {
+    /* set footer height */
+    height: 40px;
+    box-sizing: border-box;
+    /* set footer relative position at bottom */
+    border: 3px solid green;
+    background-color: lightyellow;
+    text-align: end;
+    position: absolute;
+    bottom: -30px;
+    /* expand footer width */
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". " " ." " .";
+}
+
+div.link-list {
+    width: 10.2em;
+    position: absolute;
+    top: 0;
+    font-size: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#main {
+    margin-left: 10.2em;
+    margin-right: 10.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#list1 {
+    left: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    width: max-content;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#id_bold {
+    font-weight: bold;
+}

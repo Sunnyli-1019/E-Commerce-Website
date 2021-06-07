@@ -1,0 +1,81 @@
+html,
+body {
+    /* set body height be 100% to the window size */
+    height: 100%;
+    margin: auto;
+    background-image: url("main_page/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#id_wrapper {
+    /* set min height 100% */
+    min-height: 100%;
+    /* set position relative, for the reference of footer positon */
+    position: relative;
+}
+
+#id_header {
+    /* set header height*/
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 50%;
+    border: 10px solid green;
+    background-color: lightyellow;
+    padding: 30px 0;
+    border-style: double;
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+ul {
+    font-size: x-large;
+    text-align: center;
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+#id_inline{
+    display: inline;
+}
+
+ol{
+    margin: auto;
+    font-size: x-large;
+    width: 80%;
+}
+
+#id_bold{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 200px;
+}
+
+#id_content {
+    /* leave space for header & footer region */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#id_mission {
+    margin: auto;
+    text-align: center;
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: x-large;
+    width: 80%;
+}
+
+#id_footer {
+    /* set footer height */
+    height: 40px;
+    box-sizing: border-box;
+    /* set footer relative position at bottom */
+    border: 3px solid green;
+    background-color: lightyellow;
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    /* expand footer width */
+    width: 100%;
+}
