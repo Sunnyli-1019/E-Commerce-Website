@@ -22,7 +22,7 @@
 
                 <nav>
                     <p>
-                        <a href="../Welcome Page.php">Home</a> >
+                        <a href="../welcome.php">Home</a> >
                         <a href="main.php">Main Page</a> >
                         <a href="#">
                             <?php
